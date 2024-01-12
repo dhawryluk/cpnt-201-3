@@ -1,11 +1,68 @@
 .fa-solid {
-  color: #930303;
+  color: rgb(71,43,98);
   text-align: center;
   width: 100%;
 }
 
 p {
   text-align: center;
-  color: blue;
+  color:#BC4873;
   font-size: 2rem;
+  font-weight: 900;
+}
+
+@media {
+  max-width: 640px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.column1, .column2, .column3 {
+  background: rgb(0,63,92);
+  background: linear-gradient(180deg, rgba(0,63,92,1) 0%, rgba(71,43,98,1) 53%, rgba(188,72,115,1) 100%);
+  color: white;
+  border-radius: 10px;
+  padding: 20px 20px 30px;
+}
+
+.product {
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.features {
+  font-weight: bold;
+  padding: 10px;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  background-color: #FB5B5A;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+}
+
+button:hover {
+  background-color: #BC4873;
+  color: white;
 }
